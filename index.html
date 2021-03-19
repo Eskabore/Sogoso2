@@ -37,7 +37,11 @@
 
             <div class="showcase-form card">
                 <h2>Demandez un devis</h2>
-                 <form>
+                 <form name="devis" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+                    <input type="hidden" name="form-name" value="devis">
+                    <p class="hidden">
+                        <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+                      </p>
                     <div class="form-control">
                         <input type="text" name="name" placeholder="Nom" required>
                     </div>
