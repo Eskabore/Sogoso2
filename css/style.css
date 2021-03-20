@@ -152,7 +152,7 @@ pre {
     bottom: -70px;
     right: 0px;
     left: 0px;
-    background: white;
+    background: transparent;
     transform: skewY(-3deg);
     -webkit-transform: skewY(-3deg);
     -moz-transform: skewY(-3deg);
